@@ -103,6 +103,9 @@
   <ItemGroup>
     <Content Include="Comp\Content\bootstrap-responsive.css" />
     <Content Include="Comp\Content\bootstrap.css" />
+    <Content Include="Comp\Content\Copy of masonry.css" />
+    <Content Include="Comp\Content\masonry.css" />
+    <Content Include="Comp\masonry.html" />
     <Content Include="Comp\Homepage.html" />
     <Content Include="Comp\Images\AmazonCloudComputingLogo_616.jpg" />
     <Content Include="Comp\Images\asp-net-mvc-31.gif" />
@@ -113,6 +116,7 @@
     <Content Include="Comp\Images\Open-Source.png" />
     <Content Include="Comp\Images\sqlserver.png" />
     <Content Include="Comp\Scripts\bootstrap.js" />
+    <Content Include="Comp\Scripts\jquery.imagesloaded.min.js" />
     <Content Include="Comp\Scripts\jquery.masonry.min.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />

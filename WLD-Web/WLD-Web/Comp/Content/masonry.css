@@ -1,81 +1,4 @@
-﻿/**** Base styles ****/
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-html {
-  overflow-y: scroll;
-}
-
-body { 
-  font: 13px 'Helvetica Neue', Arial, sans-serif;
-  background: #D8D5D2;
-  color: #222;
-  line-height: 1.6em;
-}
-
-a {
-  color: #A2C;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #D26;
-}
-
-a:active {
-  background: hsla( 0, 100%, 100%, 0.5 );
-}
-
-h1, h2 {
-  font-weight: 100;
-  line-height: 1.2em;
-  margin-bottom: 0.6em;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-h3, p, ul, ol, pre, dl {
-  margin-bottom: 1.0em;
-}
-
-em { font-style: italic; }
-strong { font-weight: bold; }
-
-
-
-/**** Demos ****/
+﻿
 
 #container {
   background: #FFF;
@@ -88,7 +11,6 @@ strong { font-weight: bold; }
           border-radius: 5px;
 }
 
-.centered { margin: 0 auto; }
 
 .box {
   margin: 5px;
@@ -102,25 +24,21 @@ strong { font-weight: bold; }
           border-radius: 5px;
 }
 
-
-
 .col1 { width: 300px; }
-
-
 .col1 img { max-width: 300px; }
 
 
 /**** Gutters ****/
-
 .has-gutters .box {
   margin: 5px 0;
 }
 
 .has-gutters .col1 { width: 90px; }
 
-
-
 /**** Clearfix ****/
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
+
+
+
