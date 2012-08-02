@@ -1,21 +1,21 @@
 ﻿
 
 #container {
-  background: #FFF;
-  padding: 5px;
+  /*background: #FFF;*/
+  /*padding: 5px;
   margin-bottom: 20px;
   border-radius: 5px;
   clear: both;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
-          border-radius: 5px;
+          border-radius: 5px;*/
 }
 
 
 .box {
   margin: 5px;
-  padding: 5px;
-  background: #D8D5D2;
+  padding: 15px;
+  background: #fff;
   font-size: 11px;
   line-height: 1.4em;
   float: left;
@@ -24,21 +24,21 @@
           border-radius: 5px;
 }
 
-.col1 { width: 300px; }
-.col1 img { max-width: 300px; }
+.col1 { width: 280px; }
+.col1 img { max-width: 280px; }
 
 
 /**** Gutters ****/
-.has-gutters .box {
+/*.has-gutters .box {
   margin: 5px 0;
 }
 
 .has-gutters .col1 { width: 90px; }
 
 /**** Clearfix ****/
-.clearfix:before, .clearfix:after { content: ""; display: table; }
+/*.clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.clearfix { zoom: 1; }*/
 
 
 
