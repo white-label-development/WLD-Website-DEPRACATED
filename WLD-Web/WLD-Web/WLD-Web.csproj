@@ -109,6 +109,7 @@
     <Content Include="Comp\Images\536-twitter-logo.jpg" />
     <Content Include="Comp\Images\BrushedMetal.jpg" />
     <Content Include="Comp\Images\cv_icon.png" />
+    <Content Include="Comp\Images\email-icon.png" />
     <Content Include="Comp\Images\email.jpg" />
     <Content Include="Comp\Images\github-round.png" />
     <Content Include="Comp\Images\iphone.jpg" />
@@ -116,6 +117,7 @@
     <Content Include="Comp\Images\linkedin_logo.jpg" />
     <Content Include="Comp\Images\neil-thompson.jpg" />
     <Content Include="Comp\Images\opensource.jpg" />
+    <Content Include="Comp\Images\phone-icon.png" />
     <Content Include="Comp\Images\skype-logo1.png" />
     <Content Include="Comp\Images\skype_icon.png" />
     <Content Include="Comp\Images\WLD-Logo-shadow.jpg" />
