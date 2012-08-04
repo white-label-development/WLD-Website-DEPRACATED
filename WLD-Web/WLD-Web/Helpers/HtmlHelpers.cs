@@ -3,7 +3,7 @@ using System.Web.Mvc;
 using System.Linq.Expressions;
 
 
-namespace WLD_Web.Helpers
+namespace WLD.Mvc.Helpers
 {
     public static class HtmlHelpers
     {
