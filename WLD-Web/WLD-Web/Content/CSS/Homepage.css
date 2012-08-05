@@ -26,6 +26,7 @@ body {
     background-color: rgb(242,240,240); /*F2F0F0*/
     padding: 15px;
     margin-top: 15px;
+    margin-bottom:15px;
 }
 
 
@@ -50,4 +51,36 @@ body {
 
 .mobile-column { width: 280px; }
 .mobile-column img { max-width: 280px; }
+
+.text.cv {
+    text-align: center;
+}
+
+
+.smallText {
+    font-size: 10px;
+}
+
+.text ul li {
+    
+    list-style-type:none;
+    line-height:2em;
+    
+}
+
+.text ul li div img {
+    width:20px;
+    float:left;
+    clear:both; 
+}
+
+.badge.skype {
+    width:114px;
+    height:20px;
+    border-style:none;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom:20px;
+    vertical-align:middle;
+}
 
