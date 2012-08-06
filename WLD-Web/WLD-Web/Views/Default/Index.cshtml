@@ -294,7 +294,7 @@
             </div>
 
             <!-- open source -->
-            <div class="box mobile-column">
+           @* <div class="box mobile-column">
                 <div class="poster-board">
                     <div class="badge">
                         <!--<img src="/Comp/Images/Open-Source.png" />-->
@@ -302,7 +302,7 @@
                     </div>
                 </div>
             </div>
-
+*@
 
 
 
@@ -406,7 +406,9 @@
         var $container = $('#container');
         $container.imagesLoaded(function () {
             $container.masonry({
-                itemSelector: '.box'
+                itemSelector: '.box',
+                isFitWidth: true,
+                isAnimated: true
             });
         });
     </script>
