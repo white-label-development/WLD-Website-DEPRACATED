@@ -1,16 +1,13 @@
-﻿
-body {
-    background: url(Images/BrushedMetal.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+﻿#container {
+    background-color: rgb(242,240,240);
 }
+
 
 .poster-board {
 }
 
 .page {
+    
     font-family: "Lucida Sans","Lucida Grande","Lucida Sans Unicode",sans-serif;
 }
 
@@ -19,6 +16,7 @@ body {
 
 .badge {
     text-align: center;
+    padding-bottom:15px;
 }
 
 
@@ -61,17 +59,27 @@ body {
     font-size: 10px;
 }
 
-.text ul li {
+#neil-thompson ul {
+    
+   padding-left:0;
+    
+}
+
+#neil-thompson ul li {
     
     list-style-type:none;
     line-height:2em;
     
 }
 
-.text ul li div img {
+#neil-thompson ul li div img {
     width:20px;
     float:left;
     clear:both; 
+}
+
+#i-can-list {
+    padding-top:15px;
 }
 
 .badge.skype {
@@ -84,3 +92,20 @@ body {
     vertical-align:middle;
 }
 
+#stackOverflow {
+    width: 208px;
+    margin: 0px auto;
+    
+}
+
+.software-quote {
+    
+}
+
+.question {
+    padding-top: 15px;
+}
+
+.answer {
+    font-style:italic;
+}

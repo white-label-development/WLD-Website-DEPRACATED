@@ -1,104 +1,140 @@
 ﻿@{
     ViewBag.Title = "White Label Development Ltd. :: Neil Thompson :: Freelance .NET ASP.NET WinForm MVC C# Developer :: Cornwall :: UK";
 }
-
 @section View_HeadSection
-{    
+{
     <meta name="viewport" content="width=device-width" />
-    
+
     @Html.CssLink("masonry.css")
     @Html.CssLink("Homepage.css")
 }
 
 <div class="page">
-        <div class="content">
-            <div id="container">
-                <a id="top"></a>
-                
-                <!--
+    <div class="content">
+        <div id="container">
+            <a id="top"></a>
+
+            <!--
                     Semantics:
-                    "badge"
+                    badge
                     software-quote
                     text
-                    mobile-column
+                    mobile-column (defines the box width)
+
                 -->
 
 
-                <!-- WLD-->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <img src="Images/WLD-Logo-shadow.jpg" />
-                        </div>
-                        <div class="text">
-                            <h3>White Label Development Ltd.</h3>
-
-
-                            <div>
-                                <div class="question">Perhaps you have a new project but don't want the risk of hiring new permanent staff?</div> 
-                                <div class="answer">I can help you with that?</div>
-                            </div>
-
-                            <div>
-                                <div class="question">Do you have so much work that your team is getting behind?</div> 
-                                <div class="answer">Let me help you.</div>
-                            </div>
-
-                            <ul>
-                                <li>I can commit to write quality code; </li>
-                                <li>I can fit in with your existing team; </li>
-                                <li>I can work how you want me to work.</li>
-                            </ul>
-
-                            <p>My mission is to add value to your company by writing great code.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Neil Thompson -->
-                <div class="box mobile-column">
+            <!-- WLD-->
+            <div class="box mobile-column">
+                <div class="poster-board">
                     <div class="badge">
-                        <img src="/Images/neil-thompson.jpg" />
+                        <img src="Images/WLD-Logo-shadow.jpg" />
                     </div>
                     <div class="text">
-                        <h4>Neil Thompson</h4>
-                       
-                        <p>I'm an experienced, reliable and honest UK based software developer.</p>
+                        <h2>White Label Development Ltd.</h2>
 
-                        <p>I mostly work within the Microsoft product stack, namely:</p>
-                        <ul>
-                            <li>ASP.NET &amp; ASP.NET MVC</li>
-                            <li>WCF, XML, REST, Web Services</li>
-                            <li>SQL Server</li>
-                            <li>Microsoft Windows Server</li>
-                            <li>Cloud Computing (Azure, Amazon)</li>
+                        <div>
+                            <div class="question">
+                                Does your business need a website, webservice or desktop application?
+                            </div>
+                            <div class="answer">I provide software design, build &amp; support services.</div>
+                        </div>
+
+                        <div>
+                            <div class="question">
+                                Perhaps you have a new project but don't want the risk of hiring
+                                new permanent staff?
+                            </div>
+                            <div class="answer">I can help you with that.</div>
+                        </div>
+
+                        <div>
+                            <div class="question">
+                                Do you have so much work that your team is getting behind?
+                            </div>
+                            <div class="answer">Let me help you hit your deadlines.</div>
+                        </div>
+
+                        
+                        <ul id="i-can-list">
+                            <li>I can assemble and manage a team for larger projects</li>
+                            <li>I can commit to deliver quality code</li>
+                            <li>I can fit in with your existing team &amp; practises.</li>                            
+                            <li>I can work how you want me to work</li>
                         </ul>
 
-                        <p>
-                            I am a developer and architect. I'm not a graphic designer. 
+                        <p>My mission is to add value to your company by writing great code.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Neil Thompson -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <img src="/Images/neil-thompson.jpg" />
+                </div>
+                <div class="text" id="neil-thompson">
+                    <h2>Neil Thompson</h2>
+
+                    <p>I'm an experienced, reliable and honest UK based software developer.</p>
+
+                    <p>I usually work with the Microsoft product stack, namely:</p>
+                    <ul>
+                        <li>ASP.NET &amp; ASP.NET MVC</li>
+                        <li>WCF, XML, REST, Web Services</li>
+                        <li>SQL Server</li>
+                        <li>Microsoft Windows Server</li>
+                        <li>Cloud Computing (Azure, Amazon)</li>
+                    </ul>
+
+                    <p>
+                        I am a developer and architect. I'm not a graphic designer. 
                             I can create small micro sites and design large enterprise applications. 
-                            I loosely follow an Agile philosophy, with a focus on practical Agile techniques such as:
-                        </p>
-                        <ul>
-                            <li>TDD (Test Driven Development)</li>
-                            <li>BDD (Behaviour Driven Development)</li>
-                            <li>SOLID principles &amp; 'Software Craftsmanship'</li>
-                        </ul>
+                            I loosely follow an Agile philosophy, with a focus on practical Agile techniques
+                        such as:
+                    </p>
+                    <ul>
+                        <li>TDD (Test Driven Development)</li>
+                        <li>BDD (Behaviour Driven Development)</li>
+                        <li>SOLID principles &amp; 'Software Craftsmanship'</li>
+                    </ul>
 
-                        <p>
-                            I value regular client contact and feedback. 
-                            I like to talk with you often and demonstrate progress frequently in small visible increments. 
-                            The cycle of 'presentation and review' catches misunderstandings early and helps reduce costs.
-                        </p>
+                    <p>
+                        I consider client contact key to the success of the project.
+                        Cycles of presentation and feedback catch potential misunderstandings early; This also helps
+                        minimize costs and provides opportunities for tweeks, testing, improvements and change.
+                    </p>
 
-                        <p>
-                            I write software that achieves your business objective and helps make you money. 
-                            I'm good at this. And I like it.
-                        </p>
+                    <p>
+                        I write software that achieves your business objective and helps make you money.
+                        I'm good at this. And I like it.
+                    </p>
 
-                        <ul>
-                            <li><div class="smallText">
-                                <img src="Images/email-icon.png" />                                                                
+                    <ul>
+                        
+                        <li>
+                            <div>
+                                <a href="skype:neil.james.thompson?chat">
+                                    <img style="vertical-align: middle" alt="Skype: " src="Images/skype_icon.png" />Neil
+                                    Thompson</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="Images/linkedin_logo_icon.jpg" /><a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">LinkedIn
+                                    Profile</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="Images/phone-icon.png" />
+                                01736 850032
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="smallTextx">
+                                <img src="Images/email-icon.png" />
                                 <script type="text/javascript">
                                     /* http://rumkin.com/tools/mailto_encoder/simple.php */
                                     ML = "ire>unlkc-f<@@wa=t/.vd mop\"h:b";
@@ -108,237 +144,263 @@
                                         OT += ML.charAt(MI.charCodeAt(j) - 48);
                                     } document.write(OT);
                                 </script>
-                            
-                            </div></li>
-                            <li><div><a href="skype:neil.james.thompson?chat"><img style="vertical-align:middle"  alt="Skype: " src="Images/skype_icon.png" />Neil Thompson</a></div></li>
-                            <li><div><img src="Images/linkedin_logo_icon.jpg"  /><a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">LinkedIn Profile</a></div></li>
-                            <li><div><img src="Images/phone-icon.png" /> 01736 850032</div></li>
-                            
-                        </ul>
-                    </div>
-                </div>
 
-                <!-- every business is a software business -->
-                <div class="box mobile-column">
-                    <div class="text">
-                        <p>
-                            Today &quot;every business is a software business&quot;. 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- every business is a software business -->
+            <div class="box mobile-column">
+                <div class="software-quote">
+                    <p>
+                        Today &quot;every business is a software business&quot;. 
                             Software development requires specialist skills and knowledge. 
                             Training your own permanent staff can take a long time and is often expensive
-                            - which is why an increasing number of companies are outsourcing some of their
+                        - which is why an increasing number of companies are outsourcing some of their
                             work to reliable external suppliers.
-                        </p>
-                    </div>
+                    </p>
                 </div>
+            </div>
 
-                <!-- cv - todo: needs page and links adding -->
-                <div class="box mobile-column">
+            <!-- cv - todo: needs page and links adding -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <img src="Images/cv_icon.png" />
+
+                </div>
+                <div class="text cv">
+                    Neil Thompson - Curriculum Vitae
+                </div>
+            </div>
+
+
+            <!-- Skype -->
+            <div class="box mobile-column">
+                <div class="badge skype">
+                    <a href="skype:neil.james.thompson?chat">
+                        <img src="http://mystatus.skype.com/smallclassic/neil%2Ejames.thompson" style="border: none;"
+                            width="114" height="20" alt="Neil Thompson Skype : status" /></a>
+                </div>
+            </div>
+
+
+            <!-- asp.net -->
+            <div class="box mobile-column">
+                <div class="poster-board">
                     <div class="badge">
-                        <img src="Images/cv_icon.png" />
-
-                    </div>
-                    <div class="text cv">
-                        Neil Thompson - Curriculum Vitae
+                        <img src="/Images/aspnet.jpg" />
                     </div>
                 </div>
-               
-                
-                <!-- Skype -->
-                <div class="box mobile-column">
-                    <div class="badge skype" >
-                        <a href="skype:neil.james.thompson?chat"><img src="http://mystatus.skype.com/smallclassic/neil%2Ejames.thompson" style="border: none;" width="114" height="20" alt="Neil Thompson Skype : status" /></a>                       
+            </div>
+
+            <!-- asp.net mvc -->
+            <div class="box mobile-column">
+                <div class="poster-board">
+                    <div class="badge">
+                        <img src="Images/asp-net-mvc-31.gif" />
                     </div>
                 </div>
+            </div>
 
 
-                <!-- asp.net -->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <img src="/Images/aspnet.jpg" />
-                        </div>                        
-                    </div>
-                </div>
-
-                <!-- asp.net mvc -->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <img src="Images/asp-net-mvc-31.gif" />
-                        </div>                        
-                    </div>
-                </div>
-
-                
-                <!-- the inability to cope with change -->
-                <div class="box mobile-column">
+            <!-- the inability to cope with change -->
+            <div class="box mobile-column">
+                <div class="software-quote">
                     <p>
-                        &quot;..the problem [with software projects] isn't change, per se, because change is
-                        going to happen; the problem, rather, is the inability to cope with change when it comes.&quot;
+                        &quot;..the problem [with software projects] isn't change, per se, because change
+                        is
+                        going to happen; the problem, rather, is the inability to cope with change when
+                        it comes.&quot;
                         Kent Beck
                     </p>
                 </div>
+            </div>
 
 
-                
-                <!--  we rarely have meaningful requirements -->
-                <div class="box mobile-column">
+
+            <!--  we rarely have meaningful requirements -->
+            <div class="box mobile-column">
+                <div class="software-quote">
                     <p>
-                        &quot;In software, we rarely have meaningful requirements.  Even if we do, the only measure
-                        of success that matters is whether our solution solves the customer’s shifting idea
+                        &quot;In software, we rarely have meaningful requirements.  Even if we do, the only
+                        measure
+                        of success that matters is whether our solution solves the customer’s shifting
+                    idea
                         of what their problem is.&quot; Jeff Atwood
                     </p>
                 </div>
+            </div>
 
 
-                <!-- Azure -->
-                <div class="box mobile-column">
-                    <div class="badge">
-                        <img src="/Images/Azure_logo12.jpg" />
-                    </div>                    
+            <!-- Azure -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <img src="/Images/Azure_logo12.jpg" />
                 </div>
+            </div>
 
-                <!-- Twitter special class pls-->
-                <div class="box mobile-column" style="height:450px">
-                    <div class="poster-board">
-                        <!--div class="badge">
+            <!-- Twitter special class pls-->
+            <div class="box mobile-column" style="height: 450px">
+                <div class="poster-board">
+                    <!--div class="badge">
                             <img src="Images/536-twitter-logo.jpg" />
                         </div>-->
 
-                        <div class="text">
-                            <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-                            <script>
-                                new TWTR.Widget({
-                                    version: 2,
-                                    type: 'faves',
-                                    rpp: 5,
-                                    interval: 10000,
-                                    title: '',
-                                    subject: '@@neil__thompson',
-                                    width: 250,
-                                    height: 300,
-                                    theme: {
-                                        shell: {
-                                            background: '#c7c3c3',
-                                            color: '#000000'
-                                        },
-                                        tweets: {
-                                            background: '#f2f0f0',
-                                            color: '#000000',
-                                            links: '#a88a8a'
-                                        }
+                    <div class="text">
+                        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                        <script>
+                            new TWTR.Widget({
+                                version: 2,
+                                type: 'faves',
+                                rpp: 5,
+                                interval: 10000,
+                                title: '',
+                                subject: '@@neil__thompson',
+                                width: 250,
+                                height: 300,
+                                theme: {
+                                    shell: {
+                                        background: '#c7c3c3',
+                                        color: '#000000'
                                     },
-                                    features: {
-                                        scrollbar: true,
-                                        loop: false,
-                                        live: true,
-                                        behavior: 'default'
+                                    tweets: {
+                                        background: '#f2f0f0',
+                                        color: '#000000',
+                                        links: '#a88a8a'
                                     }
-                                }).render().setUser('neil__thompson').start();
-                            </script>   
-                        </div>
+                                },
+                                features: {
+                                    scrollbar: true,
+                                    loop: false,
+                                    live: true,
+                                    behavior: 'default'
+                                }
+                            }).render().setUser('neil__thompson').start();
+                        </script>
                     </div>
                 </div>
+            </div>
 
-                <!-- LinkedIn -->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743"><img src="Images/linkedin_logo.jpg" /></a>
-                        </div>
+            <!-- LinkedIn -->
+            <div class="box mobile-column">
+                <div class="poster-board">
+                    <div class="badge">
+                        <a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">
+                            <img src="Images/linkedin_logo.jpg" /></a>
                     </div>
                 </div>
+            </div>
 
-                <!-- open source -->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <!--<img src="/Comp/Images/Open-Source.png" />-->
-                            <img src="Images/opensource.jpg" />
-                        </div>                        
+            <!-- open source -->
+            <div class="box mobile-column">
+                <div class="poster-board">
+                    <div class="badge">
+                        <!--<img src="/Comp/Images/Open-Source.png" />-->
+                        <img src="Images/opensource.jpg" />
                     </div>
                 </div>
+            </div>
 
 
-                
 
 
-                <!-- Amazon -->
-                <div class="box mobile-column">
-                    <div class="poster-board">
-                        <div class="badge">
-                            <img src="Images/AmazonCloudComputingLogo_616.jpg" />
-                        </div>
+
+            <!-- Amazon -->
+            <div class="box mobile-column">
+                <div class="poster-board">
+                    <div class="badge">
+                        <img src="Images/AmazonCloudComputingLogo_616.jpg" />
                     </div>
                 </div>
+            </div>
 
 
-                <!-- Controlling Complexity -->
-                <div class="box mobile-column">
+            <!-- Controlling Complexity -->
+            <div class="box mobile-column">
+                <div class="software-quote">
                     <p>
                         &quot;Controlling complexity is the essence of computer programming.&quot; Brian
                         Kernigan.
                     </p>
                 </div>
+            </div>
 
-                <!-- Github -->
-                <div class="box mobile-column">
-                    <div class="badge">
-                        <a href="https://github.com/white-label-development"><img src="Images/github-round.png" /></a>
-                    </div>                    
+            <!-- Github -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <a href="https://github.com/white-label-development">
+                        <img src="Images/github-round.png" /></a>
                 </div>
+            </div>
 
 
-                <!-- Lousy programmers -->
-                <div class="box mobile-column">
+            <!-- stack overflow flair -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <div id="stackOverflow">
+                        <a href="http://stackoverflow.com/users/932833/neil-thompson">
+                            <img src="http://stackexchange.com/users/flair/895437.png" width="208" height="58"
+                                alt="profile for Neil Thompson on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                                title="profile for Neil Thompson on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lousy programmers -->
+            <div class="box mobile-column">
+                <div class="software-quote">
                     <p>
                         &quot;That’s the thing about people who think they hate computers.  What they really
                         hate is lousy programmers.&quot; Larry Niven
                     </p>
                 </div>
+            </div>
 
-                <!-- Wordpress blog -->
-                <div class="box mobile-column">
-                    <div class="badge">
-                        <a href="http://interwebneil.wordpress.com/"><img src="Images/wordpress.jpg" /></a>
-                    </div>
-                    <div class="text">My blog 'The Fool on The Hill'</div>                    
+            <!-- Wordpress blog -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    <a href="http://interwebneil.wordpress.com/">
+                        <img src="Images/wordpress.jpg" /></a>
                 </div>
+                <div class="text">My blog 'The Fool on The Hill'</div>
+            </div>
 
 
-                <!-- Boolean Joke -->
-                <div class="box mobile-column">
+            <!-- Boolean Joke -->
+            <div class="box mobile-column">
+                <div class="software-quote">
                     <p>
-                        &quot;The best thing about a boolean is even if you are wrong, you are only off by a
+                        &quot;The best thing about a boolean is even if you are wrong, you are only off
+                        by a
                         bit.&quot; Anonymous
                     </p>
                 </div>
-
-                <!-- back to the top -->
-                <div class="box mobile-column">
-                    <p>
-                        <a href="#top">Back to the top...</a>
-                    </p>
-                </div>
-                
-
             </div>
-            <!-- /container -->
+
+            <!-- back to the top -->
+            <div class="box mobile-column">
+                <p>
+                    <a href="#top">Back to the top...</a>
+                </p>
+            </div>
+
+
         </div>
-        <!-- /content -->
+        <!-- /container -->
     </div>
-    <!-- /page -->
+    <!-- /content -->
+</div>
+<!-- /page -->
 
 
 
 @section View_FootSection
-{    
-    
+{
     @Html.JavascriptLink("jquery-1.6.2.min.js")
     @Html.JavascriptLink("jquery.masonry.min.js")
     @Html.JavascriptLink("jquery.imagesloaded.min.js")
-
-
     <!--  scripts -->
     <script>
         var $container = $('#container');
