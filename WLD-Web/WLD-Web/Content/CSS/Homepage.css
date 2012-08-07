@@ -1,13 +1,10 @@
 ﻿
 .content {
-    
-   
-    
+
 }
 
 #container {
-    background-color: rgb(242,240,240);
-    
+    background-color: rgb(242,240,240);    
 }
 
 
@@ -15,12 +12,10 @@
 }
 
 .page {
-    
     font-family: "Lucida Sans","Lucida Grande","Lucida Sans Unicode",sans-serif;
 }
 
-.badge img {
-}
+.badge img {}
 
 .badge {
     text-align: center;
