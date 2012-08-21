@@ -227,68 +227,11 @@ button {
   -webkit-appearance: push-button;
 }
 
-#site-footer {
-  clear: both;
-  margin: 20px 0px;
-  border-top: 2px solid white;
-  padding-top: 10px;
-  line-height: 30px;
-  font-size: 95%;
-  font-style: italic;
-}
-
-.license-copy {
-  font-size: 85%;
-}
-
-.demos #copy,
-.docs #content {
-  max-width: 640px;
-}
-
-.docs #content h2 {
-  border-top: 2px solid #FFF;
-  padding-top: 10px;
-}
-
-.docs #content h2:target { 
-  background: #D26;
-  color: white;
-  padding: 10px 5px 5px;
-}
-
-/**** Docs ****/
 
 
 
-.options dl dt { font-weight: normal; }
 
-.options dl dt,
-.options dl dd {
-  float: left;
-  padding: 0 1.2em;;
-  background: #161616;
-  line-height: 32px;
-  height: 32px;
-  margin: 0;
-}
 
-.options dl.header dt,
-.options dl.header dd {
-  background: #444;
-}
-
-.options dl .option-type {
-  font-size: 13px;
-  color: #AAA;
-  font-style: italic;
-}
-
-.options dl dd {
-  margin-left: 1px;
-}
-
-/**** Demos ****/
 
 #container {
   background: #FFF;
@@ -416,7 +359,7 @@ button {
   color: #FFF;
 }
 
-/* Homepage */
+/* Homepage 
 
 .homepage .item {
   width: 200px;
@@ -488,7 +431,8 @@ button {
   width: 54px;
 }
 
-/* mini example */
+*/
+/* mini example 
 
 .homepage .mini div {
   float: left;
@@ -508,8 +452,8 @@ button {
 .homepage .mini .h1 { height: 44px; }
 .homepage .mini .w2 { width: 94px; }
 .homepage .mini .h2 { height: 94px; }
-
-/* Tumblelog example */
+*/
+/* Tumblelog example 
 
 #tumblelog {
   background: #FFF;
@@ -535,6 +479,8 @@ button {
 #tumblelog .col3 img {
   max-width: none;
 }
+*/
+
 
 /* Infinite Scroll loader */
 #infscr-loading { 

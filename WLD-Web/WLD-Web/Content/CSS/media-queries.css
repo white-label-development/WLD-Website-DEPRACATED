@@ -38,6 +38,13 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
+#container {
+        background-color: #4800ff; /*purple*/
+        
+    }
+
+.mobile-column { width: 220px; }
+.mobile-column img { max-width: 220px; }
 }
 
 /* iPads (landscape) ----------- */
