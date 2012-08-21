@@ -64,7 +64,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
 .mobile-column { width: 280px; }
-.mobile-column img { max-width: 280px; }
+ .mobile-column img { max-width: 280px; }
 }
 
 /* Desktops and laptops ----------- */
