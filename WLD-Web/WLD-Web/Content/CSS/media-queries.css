@@ -43,8 +43,6 @@ and (max-device-width : 1024px) {
         
     }
 
-.mobile-column { width: 220px; }
-.mobile-column img { max-width: 220px; }
 }
 
 /* iPads (landscape) ----------- */
@@ -53,6 +51,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 /* Styles */
+
+/* try to fit 3 cols*/
+.mobile-column { width: 200px; }
+.mobile-column img { max-width: 200px; }
 }
 
 /* iPads (portrait) ----------- */
@@ -76,6 +78,9 @@ and (min-width : 1224px) {
         margin: 5px;
         padding: 5px;
     }
+    
+    .mobile-column { width: 280px; }
+    .mobile-column img { max-width: 280px; }
 }
 
 /* Large screens ----------- */
