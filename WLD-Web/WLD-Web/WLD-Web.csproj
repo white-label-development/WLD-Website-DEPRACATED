@@ -173,9 +173,10 @@
     <Content Include="Images\asp-net-mvc-31.gif" />
     <Content Include="Images\aspnet.jpg" />
     <Content Include="Images\Azure_logo12.jpg" />
+    <Content Include="Images\github.jpg" />
     <Content Include="Images\cv_icon.png" />
     <Content Include="Images\email-icon.png" />
-    <Content Include="Images\github-round.png" />
+    <Content Include="Images\wordpress.png" />
     <Content Include="Images\linkedin_logo.jpg" />
     <Content Include="Images\linkedin_logo_icon.jpg" />
     <Content Include="Images\neil-thompson.jpg" />
@@ -183,7 +184,6 @@
     <Content Include="Images\phone-icon.png" />
     <Content Include="Images\skype_icon.png" />
     <Content Include="Images\WLD-Logo-shadow.jpg" />
-    <Content Include="Images\wordpress.jpg" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
     <Content Include="Scripts\jquery.imagesloaded.min.js" />
     <Content Include="Scripts\jquery.masonry.min.js" />
