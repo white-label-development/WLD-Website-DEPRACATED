@@ -252,7 +252,7 @@
                     <div class="text">
                         <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
                         <script>
-                            new TWTR.Widget({
+                            var neilTwiiterFavs = new TWTR.Widget({
                                 version: 2,
                                 type: 'faves',
                                 rpp: 5,
@@ -276,9 +276,18 @@
                                     scrollbar: true,
                                     loop: false,
                                     live: true,
+                                    avatars: false,
                                     behavior: 'default'
                                 }
-                            }).render().setUser('neil__thompson').start();
+                            });
+
+                            var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+                           
+                            if (width < 767) {
+                                neilTwiiterFavs.width = 100;
+                            }
+
+                            neilTwiiterFavs.render().setUser('neil__thompson').start();
                         </script>
                     </div>
                 </div>
