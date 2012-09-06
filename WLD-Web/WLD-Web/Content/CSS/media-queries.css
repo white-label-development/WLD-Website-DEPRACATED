@@ -10,7 +10,7 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 /* Styles */
     #container {
-        background-color: #f00; /*red*/
+        /*background-color: #f00; red*/
         padding: 0px;
     }
     
@@ -23,7 +23,7 @@ and (max-width : 320px) {
 /* Styles */
     
     #container {
-        background-color: #ffd800; /*yellow*/
+        /*background-color: #ffd800; yellow*/
     }
     
     .box {
@@ -39,7 +39,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
 #container {
-        background-color: #4800ff; /*purple*/
+        /*background-color: #4800ff; purple*/
         
     }
 
@@ -64,7 +64,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
 .mobile-column { width: 300px; }
- .mobile-column img { max-width: 280px; }
+.mobile-column img { max-width: 280px; }
 }
 
 /* Desktops and laptops ----------- */

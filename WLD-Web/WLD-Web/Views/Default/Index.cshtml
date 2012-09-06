@@ -29,7 +29,7 @@
             <div class="box mobile-column">
                 <div class="poster-board">
                     <div class="badge">
-                        <img src="Images/WLD-Logo-shadow.jpg" />
+                        @Html.Image("WLD-Logo-shadow.jpg", "White Label Development logo")
                     </div>
                     <div class="text">
                         <h2>White Label Development Ltd.</h2>
@@ -72,7 +72,7 @@
             <!-- Neil Thompson -->
             <div class="box mobile-column">
                 <div class="badge">
-                    <img src="/Images/neil-thompson.jpg" />
+                    @Html.Image("neil-thompson.jpg", "Neil Thompson photo")
                 </div>
                 <div class="text" id="neil-thompson">
                     <h2>Neil Thompson</h2>
@@ -122,20 +122,20 @@
                         </li>
                         <li>
                             <div>
-                                <img src="Images/linkedin_logo_icon.jpg" /><a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">LinkedIn
+                                @Html.Image("linkedin_logo_icon.jpg", "Neil Thompson LinkedIn logo")<a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">LinkedIn
                                     Profile</a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img src="Images/phone-icon.png" />
+                                @Html.Image("phone-icon.png", "phone")
                                 01736 850032
                             </div>
                         </li>
 
                         <li>
                             <div>
-                                <img src="Images/email-icon.png" />
+                                @Html.Image("email-icon.png", "email")
                                 <script type="text/javascript">
                                     /* http://rumkin.com/tools/mailto_encoder/simple.php */
                                     ML = "ire>unlkc-f<@@wa=t/.vd mop\"h:b";
@@ -168,9 +168,7 @@
             <!-- cv -->
             <div class="box mobile-column">
                 <div class="badge">
-                    
-                    <a href="@Url.Action("Index", "CurriculumVitae")"><img src="Images/cv_icon.png" /></a>
-
+                    <a href="@Url.Action("Index", "CurriculumVitae")">@Html.Image("cv_icon.png", "Neil Thompson Curriculum Vitae")</a>
                 </div>
                 <div class="text cv">
                     @Html.ActionLink("Neil Thompson - Curriculum Vitae", "Index", "CurriculumVitae");
@@ -192,7 +190,7 @@
             <div class="box mobile-column">
                 <div class="poster-board">
                     <div class="badge">
-                        <img src="/Images/aspnet.jpg" />
+                        @Html.Image("aspnet.jpg", "ASP.NET logo")
                     </div>
                 </div>
             </div>
@@ -201,7 +199,7 @@
             <div class="box mobile-column">
                 <div class="poster-board">
                     <div class="badge">
-                        <img src="Images/asp-net-mvc-31.gif" />
+                        @Html.Image("asp-net-mvc-31.gif", "ASP.NET MVC logo")
                     </div>
                 </div>
             </div>
@@ -211,7 +209,7 @@
             <div class="box mobile-column">
                 <div class="software-quote">
                     <p>
-                        &quot;..the problem [with software projects] isn't change, per se, because change
+                        &quot;...the problem [with software projects] isn't change, per se, because change
                         is
                         going to happen; the problem, rather, is the inability to cope with change when
                         it comes.&quot;
@@ -239,7 +237,7 @@
             <!-- Azure -->
             <div class="box mobile-column">
                 <div class="badge">
-                    <img src="/Images/Azure_logo12.jpg" />
+                    @Html.Image("Azure_logo12.jpg", "Windows Azure logo")
                 </div>
             </div>
 
@@ -301,7 +299,7 @@
                 <div class="poster-board">
                     <div class="badge">
                         <a href="http://www.linkedin.com/pub/neil-thompson/5/a58/743">
-                            <img src="Images/linkedin_logo.jpg" /></a>
+                            @Html.Image("linkedin_logo.jpg", "LinkedIn logo")</a>
                     </div>
                 </div>
             </div>
@@ -311,7 +309,7 @@
             <div class="box mobile-column">
                 <div class="poster-board">
                     <div class="badge">
-                        <img src="Images/AmazonCloudComputingLogo_616.jpg" />
+                        @Html.Image("AmazonCloudComputingLogo_616.jpg", "Amazon Cloud Computing logo")
                     </div>
                 </div>
             </div>
@@ -331,7 +329,7 @@
             <div class="box mobile-column">
                 <div class="badge">
                     <a href="https://github.com/white-label-development">
-                        <img src="Images/github.jpg" /></a>
+                        @Html.Image("github.jpg", "Github logo")</a>
                 </div>
             </div>
 
@@ -362,7 +360,7 @@
             <div class="box mobile-column">
                 <div class="badge">
                     <a href="http://interwebneil.wordpress.com/">
-                        <img src="Images/wordpress.png" /></a>
+                        @Html.Image("wordpress.png", "Wordpress Blog logo")</a>
                 </div>
                 <div class="text centered">My blog <a href="http://interwebneil.wordpress.com/">'The Fool on The Hill'</a></div>
             </div>
