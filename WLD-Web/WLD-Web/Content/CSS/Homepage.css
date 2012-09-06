@@ -15,6 +15,23 @@
     font-family: "Lucida Sans","Lucida Grande","Lucida Sans Unicode",sans-serif;
 }
 
+a {
+    color:rgb(14,117,186)
+}
+a:link {
+    text-decoration: none;
+}
+ a:visited{
+    text-decoration: none;
+}
+ a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(14,117,186);
+}
+ 
 .badge img {}
 
 .badge {

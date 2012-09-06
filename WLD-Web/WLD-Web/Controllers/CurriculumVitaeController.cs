@@ -6,17 +6,15 @@ using System.Web.Mvc;
 
 namespace WLD_Web.Controllers
 {
-    public class DefaultController : Controller
+    public class CurriculumVitaeController : Controller
     {
         //
-        // GET: /Default/
+        // GET: /CurriculumVitae/
 
         public ActionResult Index()
         {
             return View();
         }
-
-        
 
     }
 }
