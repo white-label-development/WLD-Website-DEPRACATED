@@ -252,14 +252,21 @@
                     <div class="text">
                         <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
                         <script>
-                            var neilTwiiterFavs = new TWTR.Widget({
+
+                            var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+                            var twitterWidgetWidth = 250;
+                            if (width < 767) {
+                                twitterWidgetWidth = 200;                                
+                            }
+
+                            var neilTwitterFavs = new TWTR.Widget({
                                 version: 2,
                                 type: 'faves',
                                 rpp: 5,
                                 interval: 10000,
                                 title: '',
                                 subject: '@@neil__thompson',
-                                width: 250,
+                                width: twitterWidgetWidth,
                                 height: 300,
                                 theme: {
                                     shell: {
@@ -280,14 +287,9 @@
                                     behavior: 'default'
                                 }
                             });
-
-                            var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+                                                        
+                            neilTwitterFavs.render().setUser('neil__thompson').start();
                            
-                            if (width < 767) {
-                                neilTwiiterFavs.width = 100;
-                            }
-
-                            neilTwiiterFavs.render().setUser('neil__thompson').start();
                         </script>
                     </div>
                 </div>
