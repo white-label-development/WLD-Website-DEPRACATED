@@ -172,6 +172,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="googlee45948b32a464229.html" />
     <Content Include="Images\AmazonCloudComputingLogo_616.jpg" />
     <Content Include="Images\asp-net-mvc-31.gif" />
     <Content Include="Images\aspnet.jpg" />
