@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://www.white-label-development.co.uk/</loc>
+
+
+    <image:image>
+      <image:loc>http://www.white-label-development.co.uk/Images/WLD-Logo-shadow.jpg</image:loc>
+      <image:title>White Label Development Ltd Logo</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://www.white-label-development.co.uk/Images/neil-thompson.jpg</image:loc>
+      <image:title>Neil Thompson photo</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://www.white-label-development.co.uk/Images/aspnet.jpg</image:loc>
+      <image:title>White Label Development Microsoft ASP.NET website development</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://www.white-label-development.co.uk/Images/asp-net-mvc-31.gif</image:loc>
+      <image:title>White Label Development Microsoft ASP.NET MVC website development</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://www.white-label-development.co.uk/Images/Azure_logo12.jpg</image:loc>
+      <image:title>White Label Development Microsoft Windows Azure Development</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>http://www.white-label-development.co.uk/CurriculumVitae</loc>
+  </url>
+</urlset>
