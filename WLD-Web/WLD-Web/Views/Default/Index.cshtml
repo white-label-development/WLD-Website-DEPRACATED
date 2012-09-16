@@ -24,14 +24,18 @@
                     mobile-column (defines the box width)
                 -->
 
+<!--
+    <a href="http://www.example.com" itemprop="url">http://pizza.example.com</a>.
+-->
+
             <!-- WLD-->
-            <div class="box mobile-column">
+            <div class="box mobile-column" itemscope itemtype="http://data-vocabulary.org/Organization" >
                 <div class="poster-board">
                     <div class="badge">
                         @Html.Image("WLD-Logo-shadow.jpg", "White Label Development logo")
                     </div>
                     <div class="text">
-                        <h2>White Label Development Ltd.</h2>
+                        <h2 itemprop="name">White Label Development Ltd.</h2>
 
                         <div>
                             <div class="question">
@@ -69,14 +73,14 @@
             </div>
 
             <!-- Neil Thompson -->
-            <div class="box mobile-column">
-                <div class="badge">
+            <div class="box mobile-column" itemscope itemtype="http://data-vocabulary.org/Person">
+                <div class="badge" itemprop="photo">
                     @Html.Image("neil-thompson.jpg", "Neil Thompson photo")
                 </div>
                 <div class="text" id="neil-thompson">
-                    <h2>Neil Thompson</h2>
+                    <h2 itemprop="name">Neil Thompson</h2>
 
-                    <p>I'm an experienced, reliable and honest UK based software developer.</p>
+                    <p>I'm an experienced, reliable and honest UK based <span itemprop="role">software developer</span>.</p>
 
                     <p>I mostly work within the Microsoft product stack, namely:</p>
                     <ul>
@@ -126,9 +130,9 @@
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div  itemscope itemtype="http://data-vocabulary.org/Organization">
                                 @Html.Image("phone-icon.png", "phone")
-                                01736 850032
+                                <span itemprop="tel">01736 850032</span>
                             </div>
                         </li>
 
