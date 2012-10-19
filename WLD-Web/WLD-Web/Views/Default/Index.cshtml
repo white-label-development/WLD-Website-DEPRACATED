@@ -4,6 +4,9 @@
 @section View_HeadSection
 {
     <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="White Label Development Ltd" />
+    <meta name="description" content="Freelance Software Development based in Cornwall, UK : Website, Apps and Web Services" />
+
 
     @Html.CssLink("masonry.css")
     @Html.CssLink("Homepage.css")
@@ -152,6 +155,10 @@
                             </div>
                         </li>
                     </ul>
+
+                    <p>
+                        Working software that matters.
+                    </p>
                 </div>
             </div>
 
@@ -173,8 +180,13 @@
                 <div class="badge">
                     <a href="@Url.Action("Index", "CurriculumVitae")">@Html.Image("cv_icon.png", "Neil Thompson Curriculum Vitae")</a>
                 </div>
-                <div class="text cv">
-                    @Html.ActionLink("Neil Thompson - Curriculum Vitae", "Index", "CurriculumVitae");
+                <div>
+                    <div style="float:right;">
+                        <a href="@Url.Action("CurriculumVitae","Document")"> @Html.Image("pdf_file.png", "Curriculum Vitae PDF")</a>
+                    </div>
+                    <div class="text cv">                         
+                       @Html.ActionLink("Neil Thompson - Curriculum Vitae", "Index", "CurriculumVitae")
+                    </div>
                 </div>
             </div>
 
@@ -376,6 +388,15 @@
                         &quot;The best thing about a boolean is even if you are wrong, you are only off by a bit.&quot; Anonymous
                     </p>
                 </div>
+            </div>
+
+            <!-- Microsoft WebSpark Network Partner -->
+            <div class="box mobile-column">
+                <div class="badge">
+                    
+                        @Html.Image("webspark-partner.jpg", "Microsoft WebSpark Network Partner")</a>
+                </div>
+                <div class="text centered">Proud to be a WebsiteSpark Network Partner</div>
             </div>
 
             <!-- g+ -->

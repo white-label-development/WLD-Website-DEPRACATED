@@ -97,6 +97,7 @@
   <ItemGroup>
     <Compile Include="Controllers\CurriculumVitaeController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DocumentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +183,8 @@
     <Content Include="Images\email-icon.png" />
     <Content Include="Images\headshot.jpg" />
     <Content Include="Images\me-leaves-128x128.jpg" />
+    <Content Include="Images\pdf_file.png" />
+    <Content Include="Images\webspark-partner.jpg" />
     <Content Include="Images\wordpress.png" />
     <Content Include="Images\linkedin_logo.jpg" />
     <Content Include="Images\linkedin_logo_icon.jpg" />
@@ -220,6 +223,7 @@
     <Content Include="Views\CurriculumVitae\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Documents\thompson_cv.pdf" />
     <None Include="Properties\PublishProfiles\WLD - hostingUk.net.pubxml" />
   </ItemGroup>
   <PropertyGroup>
