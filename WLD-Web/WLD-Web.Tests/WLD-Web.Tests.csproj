@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHelpers\RoutingHelper.cs" />
     <Compile Include="TestHelpers\SystemWeb.cs" />
+    <Compile Include="UnitTests\DocumentControllerTest.cs" />
     <Compile Include="UnitTests\Helpers\HtmlHelpersTests.cs" />
   </ItemGroup>
   <ItemGroup>
